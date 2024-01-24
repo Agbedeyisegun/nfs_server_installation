@@ -40,5 +40,5 @@ echo "/exports/backups 192.168.88.100(rw,sync,no_subtree_check)" | sudo tee -a /
 sudo systemctl restart nfs-kernel-server
 
 
-echo "Setup complete. Shared directories 'sharedDocs' and 'backup' created with necessary permissions."
+echo "Setup complete. Shared directories 'sharedDocs' and 'backups' created with necessary permissions."
 
