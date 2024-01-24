@@ -2,7 +2,7 @@
 
 Ensuring the security of your NFS (Network File System) setup is crucial to protect your data and prevent unauthorized access. Consider the following security considerations:
 
-## 6.1 Firewall Configuration
+##  Firewall Configuration
 
 ### Symptom: Connection Issues
 
@@ -12,7 +12,7 @@ Ensuring the security of your NFS (Network File System) setup is crucial to prot
 - **Port Configuration:**
   Be aware of the default NFS port (2049) and configure your firewall rules accordingly. Consider using firewall rules to restrict access to NFS ports.
 
-## 6.2 Authentication and Authorization
+##  Authentication and Authorization
 
 ### Symptom: Unauthorized Access
 
@@ -22,7 +22,7 @@ Ensuring the security of your NFS (Network File System) setup is crucial to prot
 - **Authorization:**
   Set up proper authorization rules in the `/etc/exports` file on the NFS server to control which clients can access specific directories.
 
-## 6.3 Data Encryption
+##  Data Encryption
 
 ### Symptom: Security Concerns for Sensitive Data
 
@@ -32,21 +32,21 @@ Ensuring the security of your NFS (Network File System) setup is crucial to prot
 - **VPN or SSH Tunnels:**
   For an added layer of security, consider deploying NFS over a Virtual Private Network (VPN) or through Secure Shell (SSH) tunnels.
 
-## 6.4 Regular Updates and Patching
+##  Regular Updates and Patching
 
 ### Symptom: System Vulnerabilities
 
 - **Update NFS Packages:**
   Keep your NFS packages up to date by regularly checking for updates and applying patches. This helps address security vulnerabilities and enhances the overall stability of your NFS server.
 
-## 6.5 Monitoring and Logging
+##  Monitoring and Logging
 
 ### Symptom: Security Incidents
 
 - **Log Monitoring:**
   Implement regular log monitoring to detect and respond to any suspicious activities related to NFS. Examine system logs for any unauthorized access attempts or other security incidents.
 
-## 6.6 User Permissions and UID/GID Consistency
+##  User Permissions and UID/GID Consistency
 
 ### Symptom: Permission Issues
 

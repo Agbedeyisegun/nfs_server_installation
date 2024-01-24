@@ -1,8 +1,8 @@
-# 5. Troubleshooting
+# Troubleshooting
 
 Your NFS client is now set up to access the shared directories from the NFS server. However, if you encounter any issues during the setup or usage, refer to the following troubleshooting tips:
 
-## 5.1 Connection Issues
+## Connection Issues
 
 ### Symptom: Unable to mount NFS share
 
@@ -13,7 +13,7 @@ Your NFS client is now set up to access the shared directories from the NFS serv
   ping server_ip
 
 
-## 5.2 Permission Issues
+## Permission Issues
 
 ### Symptom: Permission denied when accessing NFS share
 
