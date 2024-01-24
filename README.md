@@ -43,5 +43,14 @@ If you encounter any issues during the setup or usage, consult the [Troubleshoot
 Contributions are welcome! If you have improvements, suggestions, or bug fixes, please open an issue or submit a pull request.
 
 
+
+
+You have successfully set up an NFS server and client, you can start sharing between Linux machines. You might need to adjust this config based on your specific requirement and use.
+
+Note: This documentation was written and authored by Agbedeyi Segun Olatunde. Feel free to reach out for further questions and clarifications.
+
+
 **Happy NFS Setup!**
+
+
 # nfs_server_installation
